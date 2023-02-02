@@ -60,12 +60,53 @@ Reflexing, Symmetric, Transitive
 For all, There exists...
 \end{center}
 
-\noindent Write precise (mathematical) definitionas of the following relations:
+\noindent Write precise (mathematical) definitions of the following relations:
 
 \begin{enumerate}
-    \item Big-O:
-    \item Big-$\Omega$:
-    \item Big-$\Theta$:
+    \item Big-O: \\
+    
+            \smallskip
+
+            Big-O is used as a general equation in order to find the time complexity of a function.
+            It is hardly ever exact, however, it is unnecessary for it to be exact as a general
+            estimate is sufficient in determining the complexity of an algorithm based on n, the
+            number of input.
+
+            T(n) and f(n) are two positive funtcions. We can write \textbf{T(n) $\in$ O(f(n))},
+            and say that T(n) has order of f(n), if there are positive constants M and $n_0$ 
+            such that T(n) $\leq$ M * f(n) for all n $\geq$ $n_0$ \\
+
+            (https://yourbasic.org/algorithms/big-o-notation-explained/)
+            
+            \smallskip
+
+    \item Big-$\Omega$: \\
+    
+            \smallskip
+
+            Big $\Omega$ is used to give a lower bound for the gorwth of a function.
+            It is very similar to traditional Big-O, however the inequality is different.
+
+            T(n) and f(n) are two postivie funtions. We write \textbf{T(n) $\in$ $\Omega$(f(n))},
+            and say that T(n) is Big-$\Omega$ of f(n), if there are positve constants m and $n_0$
+            such that T(n) $\geq$ m(f(n)) for all n $\geq$ $n_0$
+
+            %(https://yourbasic.org/algorithms/big-o-notation-explained/#omega-and-theta-notation)
+
+            \smallskip
+
+    \item Big-$\Theta$: \\
+    
+            \smallskip
+
+            Now that general complexity and lower bound complexity have been defined, we can now look
+            at Big-$\Theta$ which is used to determine both the upper and the lower bound of the 
+            time complexity function.
+
+            \textbf{T(n) $\in$ $\Theta$(f(n))} if T(n) is both OO(f(n)) and $\Omega$(f(n))
+
+            \smallskip
+
 \end{enumerate}
 
 \noindent Give examples of functions that satisfy these relations.
@@ -86,7 +127,7 @@ expended when an algorithm is executed on input of size \textit{n}.
         \hline
         Tyler Gutowski &  \\
         \hline
-        Spencer Hirsch &  \\
+        Spencer Hirsch & Mathematical definitions and explanations \\
         \hline
     \end{tabular}
 \end{center}
