@@ -1,4 +1,5 @@
 \documentclass{article}
+\usepackage{hyperref}
 
 \begin{document}
 
@@ -76,7 +77,7 @@ For all, There exists...
             and say that T(n) has order of f(n), if there are positive constants M and $n_0$ 
             such that T(n) $\leq$ M * f(n) for all n $\geq$ $n_0$ \\
 
-            (https://yourbasic.org/algorithms/big-o-notation-explained/)
+            (\url{https://yourbasic.org/algorithms/big-o-notation-explained/})
             
             \smallskip
 
@@ -84,14 +85,14 @@ For all, There exists...
     
             \smallskip
 
-            Big $\Omega$ is used to give a lower bound for the gorwth of a function.
+            Big $\Omega$ is used to give a lower bound for the growth of a function.
             It is very similar to traditional Big-O, however the inequality is different.
 
             T(n) and f(n) are two postivie funtions. We write \textbf{T(n) $\in$ $\Omega$(f(n))},
             and say that T(n) is Big-$\Omega$ of f(n), if there are positve constants m and $n_0$
             such that T(n) $\geq$ m(f(n)) for all n $\geq$ $n_0$
 
-            %(https://yourbasic.org/algorithms/big-o-notation-explained/#omega-and-theta-notation)
+            (\url{https://yourbasic.org/algorithms/big-o-notation-explained/#omega-and-theta-notation})
 
             \smallskip
 
@@ -103,13 +104,88 @@ For all, There exists...
             at Big-$\Theta$ which is used to determine both the upper and the lower bound of the 
             time complexity function.
 
-            \textbf{T(n) $\in$ $\Theta$(f(n))} if T(n) is both OO(f(n)) and $\Omega$(f(n))
+            \textbf{T(n) $\in$ $\Theta$(f(n))} if T(n) is both O(f(n)) and $\Omega$(f(n))
 
             \smallskip
 
 \end{enumerate}
 
+\smallskip
+
 \noindent Give examples of functions that satisfy these relations.
+
+\medskip Note: \textbf{All bounds are defined as n $\rightarrow$ $\infty$ }
+
+\smallskip
+
+\begin{enumerate}
+
+    \item Big-O: \\
+        
+        \smallskip
+
+        The function \textbf{f(n) = 3n\textsuperscript{2} + 2n + 1} is defined by 
+        \textbf{O(n\textsuperscript{2})} because there exists a constant \textbf{c = 3}, 
+        \textbf{n\textsubscript{0} = 1} such that for all 
+        \textbf{n $>$ 1}, \textbf{ f(n) $\le$ c $\cdot$ g(n)}, where 
+        \textbf{g(n) = n\textsuperscript{2}}. This means that the function \textbf{f(n)} has a
+        growth rate no worse than a quadratic function (n\textsuperscript{2}).
+
+        The function \textbf{f(n) = 5n $\cdot$ log(n) + 1000} is defined by 
+        \textbf{O(n $\cdot$ log(n))} because there exists a constant \textbf{c = 5}, 
+        \textbf{n\textsubscript{0} = 1} such that for all \textbf{n $>$ 1}, 
+        \textbf{f(n) $\le$ c $\cdot$ g(n)}, where \textbf{g(n) = n $\cdot$ log(n)}. This means 
+        that the function \textbf{f(n)} has a growth rate no worse than a log-linear function 
+        (n $\cdot$ log(n)). \\
+
+        (\url{https://jarednielsen.com/big-o-log-linear-time-complexity/})
+
+
+        \smallskip
+    
+    \item Big-$\Omega$: \\
+    
+        \smallskip
+
+        The function \textbf{f(n) = 2n\textsuperscript{3} + 100} is defined by
+        \textbf{$\Omega$(n\textsuperscript{3})} because there exists a constant \textbf{c = 1},
+        \textbf{n\textsubscript{0} = 1} such that for all \textbf{n $>$ 1}, \textbf{f(n) $\ge$
+        c $\cdot$ g(n)}, where \textbf{g(n) = n\textsuperscript{3}}. This means that the function
+        \textbf{f(n)} has a growth rate no better than a cubic function (n\textsuperscript{3}).
+
+        The function \textbf{f(n) = 2n\textsuperscript{2} + 4n + 2} is defined by
+        \textbf{$\Omega$(n)} because there exists a constant \textbf{c = 1},
+        \textbf{n\textsubscript{0} = 1} such that for all \textbf{n $>$ 1}, \textbf{f(n) $\ge$
+        c $\cdot$ g(n)}, where \textbf{g(n) = n}. This means that the function
+        \textbf{f(n)} has a growth rate no better than a linear function (n). \\
+
+        (\url{https://course.ccs.neu.edu/cs5002f18-seattle/lects/cs5002_lect9_fall18_notes.pdf})
+
+        \smallskip
+
+    \item Big-$\Theta$: \\
+    
+        \smallskip
+
+        The function \textbf{f(n) = 2n + 100} is defined by \textbf{$\Theta$(n)} because there 
+        exists constants \boldmath{$c_1 = 1$}, \boldmath{$c_2 = 1$}, and \boldmath{$n_0 = 1$}
+        such that for all \textbf{n $>$ 1}, \boldmath{$c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n)$}
+        where \textbf{g(n) = n}. This means that the function \textbf{f(n)} has both an upper
+        and lower bound defined by \textbf{n}.
+
+        The function \textbf{f(n) = n\textsuperscript{2} + 3n + 2} is defined by 
+        \textbf{$\Theta$(n\textsuperscript{2})} because there 
+        exists constants \boldmath{$c_1 = 1$}, \boldmath{$c_2 = 1$}, and \boldmath{$n_0 = 1$}
+        such that for all \textbf{n $>$ 1}, \boldmath{$c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n)$}
+        where \textbf{g(n) = n\textsuperscript{2}}. 
+        This means that the function \textbf{f(n)} has both an upper
+        and lower bound defined by \textbf{n\textsuperscript{2}}. \\
+
+        (\url{https://www.geeksforgeeks.org/analysis-of-algorithms-big-%CE%B8-big-theta-notation/})
+
+        \smallskip
+
+\end{enumerate}
 
 \medskip
 
@@ -123,7 +199,7 @@ expended when an algorithm is executed on input of size \textit{n}.
         \hline
         \textbf{Name} & \textbf{Section} \\
         \hline
-        Remington Greko &  \\
+        Remington Greko &  Examples of functions\\
         \hline
         Tyler Gutowski &  \\
         \hline
