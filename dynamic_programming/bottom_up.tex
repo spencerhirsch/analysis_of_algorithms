@@ -39,6 +39,9 @@ finding examples and summarize these in your group’s words.)
 
 \bigskip
 
+\textbf{Example One: (Spencer)} \\
+
+
 \noindent \textit{Good approximations to hard problems}
 
 \medskip
@@ -53,6 +56,37 @@ proximate solutions to these hard problems. My memory tells me the
 0–1 Knapsack Problem is an example of a hard problem with a good
 dynamic programming approximation. Report on this example and
 at least 2 additional hard problems with good approximate solutions.
+
+\bigskip
+
+\textbf{0-1 Knapsack Problem: (Spencer)} \\
+
+\noindent \textit{The problem goes as follows:} \\
+The 0-1 Knapsack problem is a programming problem where as input you
+are given, an array of items, [1, 2, ...., n - 1, n], and their 
+respective weights given as an array, where each index in the array
+corresponds to it's respective item. You are also given a maximum capacity
+of the the sack that is going to be used to hold the items. You must find
+the maximum number of items you can fit into the knapsack without exceeding
+the capacity of the knapsack. However, the quantity of the items that can
+be put into the bag is either zero or one of each specific item.
+
+\medskip
+
+\noindent \textit{Solution:} \\
+\begin{itemize}
+    \item A DP[][] table will contain all of the possible weights that the backpack could
+    contain.
+    \item The state DP[i][j] will denote a maximum value of the weight considering all values.
+          So you can consider the weight of the row and fill in the columns that have the total
+          possible weight $\geq$ the weight of the row.
+    \begin{itemize}
+        \item Fill in weight of row
+        \item Don't fill in weight of the row
+    \end{itemize}
+    \item Find the maximum weight of the filled in columns that have been compared to the maximum
+          weight of the knapsack.
+\end{itemize}
 
 
 \pagebreak+
