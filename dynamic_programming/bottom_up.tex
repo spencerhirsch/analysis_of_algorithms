@@ -34,7 +34,37 @@ up.}
 
 \medskip
 
-Write here.
+Dynamic programming is used to optimize solutions of problems that can be solved recursively.
+This is beneficial because recursion can lead to many different issues because it can be an 
+expensive algorithm to implement. The concept of memorization is relatively simple, you break up a large problem
+into subproblems where the results are stored to ensure that they are not computed again.
+This will reduce the time complexity of an application making it a much more optimal solution
+to many problems.
+
+There are two primary approaches to dynamic programming, top-down and bottom-up. They both utilize
+breaking a problem into smaller subproblems, however they have different execution techniques.
+In top-down you will work your way through the subproblems just as they would be laid out in a tree.
+Meaning that there are different paths a program can take depending on the problem. Whereas, with
+bottom-up programming the layout of the subproblems is fixed and the program will only work through
+subproblems that are strictly necessary.
+
+Memorization is used when the result of a subproblem is calculated so that it will not have
+to be recalculated, this is especially important with dynamic programming because with recursion
+the same problem occurs more than once. The smaller subproblems all contribute to the overall 
+problem, rather than having an algorithm working to solve every portion of the problem at a 
+single time.
+
+The bottom-up approach to dynamic programming ensures that the order of the subproblems will
+garuntee that a subproblem will only need to be computed once. This will allow a program to
+consume less memory. 
+
+Both of the primary dynamic programming techniques are optimzed versions of recursion that
+break down a larger problem into smaller subproblems, ensuring that a problem will only be solved
+when it is necessary. Implementing memorization for any technique will ensure that a solution is
+saved and will not have to be recalculated bring down the time complexity of the problem as
+opposed to a recursive solution.
+
+
 
 \bigskip
 
