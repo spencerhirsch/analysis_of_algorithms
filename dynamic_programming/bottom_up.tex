@@ -81,9 +81,7 @@ is performed in O(x * y) time where x and y are the lengths of the two
 strings being compared. This is a far better complexity than an approach 
 where every possible subsequence is generated for each string and then 
 compared. This would be an example of a brute-force approach, and it's time 
-complexity would be far worse, O(2\textsuperscript{(x+y)}). The dynamic 
-approach achieves this by eliminating redundant calculations by creating
-subproblems to be reused.
+complexity is far worse.
 
 \bigskip
 
@@ -114,6 +112,7 @@ at least 2 additional hard problems with good approximate solutions.
 \noindent \textbf{0-1 Knapsack Problem: (Spencer)} 
 
 \noindent \textit{The problem goes as follows:} \\
+
 The 0-1 Knapsack problem is a programming problem where as input you
 are given, an array of items, [1, 2, ...., n - 1, n], and their 
 respective weights given as an array, where each index in the array
@@ -126,6 +125,7 @@ be put into the bag is either zero or one of each specific item.
 \medskip
 
 \noindent \textit{The Solution:} \\
+
 Using the iterative dynamic programming approach you would define a 2d array,
 where the rows corresponds to the index of the items and the weights are defined
 on the columns. For every weight you can either choose to ignore it or use it
@@ -139,6 +139,40 @@ the best solution to the given problem. The use of dynamic programming gives
 the most optimal space and time complexity as opposed to the brute force
 approach that could also be used for this problem.
 
+\bigskip
+
+\noindent \textbf{Longest Common subsequence: (Remi)} 
+
+\noindent \textit{The problem goes as follows:} \\
+
+The shortest path problem is a programming problem where the goal is to find 
+the quickest route between an origin and goal point. In programming the points
+travelled would be represented by a graph where, for example, cities are denoted
+by nodes and roads are denoted by edges. Each edge is assigned a weight which 
+represents the length of the road between any two nodes. The combination of edges 
+to arrive at the goal with the lowest total value represents the shortest path.
+
+\medskip
+
+\noindent \textit{The Solution:} \\
+
+One very popular algorithm used to solve this problem is Dijkstra's algorithm, 
+which utilizes a dynamic approach in a graph. Firstly the start node is assigned 
+a distance of 0 and every other node is assigned infinity. First the source node
+is added to the queue. Each step pops the node with the shortest distance to the
+source node and checks the distance of all of its neighboring nodes. If the 
+new distance is shorter than the previously assigned one, it is updated. The 
+neighboring nodes are then added to the queue and the process repeats until 
+all nodes have either been assigned a value, or the goal node has been reached.
+
+Dijkstra's algoirithm garuntees the optimal path between any two nodes, meaning 
+that it will not waste time producing paths which are not the shortest between
+the two input nodes. By updating the shortest path to every node at every step, 
+the algorithm will never have to backtrack and reevaluate a distance which
+has alreaddy been assigned. No unnecessary calculations are perfomed, meaning 
+the time and space complexity is satisfactory.
+
+
 \pagebreak
 
 \begin{center}
@@ -146,7 +180,7 @@ approach that could also be used for this problem.
             \hline
             \textbf{Name} & \textbf{Section} \\
             \hline
-            Remington Greko &  \\
+            Remington Greko & Second example of Dynamic Programming $\&$ Shortest Path\\
             \hline
             Tyler Gutowski &  \\
             \hline
