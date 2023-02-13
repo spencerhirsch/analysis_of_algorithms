@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.18)  13 FEB 2023 18:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.18)  13 FEB 2023 18:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -234,47 +234,47 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 14.
 [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 84--88
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 119--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--96
+Underfull \hbox (badness 10000) in paragraph at lines 126--131
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 111.
+(Font)              <7> on input line 146.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 111.
+(Font)              <5> on input line 146.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--113
-
- []
-
-[2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 144--148
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
 [5]
-Underfull \hbox (badness 1466) in paragraph at lines 225--226
+Underfull \hbox (badness 1466) in paragraph at lines 260--261
 []\OT1/cmr/m/n/10 How Dy-namic Pro-gram-ming Works,
  []
 
@@ -285,13 +285,13 @@ Package rerunfilecheck Info: File `bottom_up.out' has not changed.
 Here is how much of TeX's memory you used:
  7809 strings out of 478268
  124935 string characters out of 5846347
- 422282 words of memory out of 5000000
+ 421282 words of memory out of 5000000
  25955 multiletter control sequences out of 15000+600000
  473255 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,9n,63p,311b,319s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on bottom_up.pdf (6 pages, 94603 bytes).
+Output written on bottom_up.pdf (6 pages, 96455 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
