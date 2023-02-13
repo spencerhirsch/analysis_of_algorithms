@@ -68,10 +68,6 @@ be the best way to solve this particular problem.
 
 \bigskip
 
-\noindent \textbf{Example Two: ()}
-
-\textbf{}
-
 \noindent \textbf{Example Three: ()}
 
 
@@ -110,21 +106,19 @@ be put into the bag is either zero or one of each specific item.
 
 \medskip
 
-\noindent \textit{Solution:} \\
-\begin{itemize}
-    \item A DP[][] table will contain all of the possible weights that the backpack could
-    contain.
-    \item The state DP[i][j] will denote a maximum value of the weight considering all values.
-          So you can consider the weight of the row and fill in the columns that have the total
-          possible weight $\geq$ the weight of the row.
-    \begin{itemize}
-        \item Fill in weight of row
-        \item Don't fill in weight of the row
-    \end{itemize}
-    \item Find the maximum weight of the filled in columns that have been compared to the maximum
-          weight of the knapsack.
-\end{itemize}
+\noindent \textit{The Solution:} \\
+Using the iterative dynamic programming approach you would define a 2d array,
+where the rows corresponds to the index of the items and the weights are defined
+on the columns. For every weight you can either choose to ignore it or use it
+when constructing the 2d array. Thus, you can calculate the maximum weight
+that can be held in the knapsack based on the items and their corresponding
+weights.
 
+By iterating through the 2d array and constructing all possibilites, comparing
+the maximum for each to the absolute maximum of the knapsack will give you 
+the best solution to the given problem. The use of dynamic programming gives
+the most optimal space and time complexity as opposed to the brute force
+approach that could also be used for this problem.
 
 \pagebreak
 
@@ -137,7 +131,7 @@ be put into the bag is either zero or one of each specific item.
             \hline
             Tyler Gutowski &  \\
             \hline
-            Spencer Hirsch & One Example use of Dynamic Programming $\&$ One hard algorithm example\\
+            Spencer Hirsch & One Example use of Dynamic Programming $\&$ 0-1 Knapsack Problem algorithm example\\
             \hline
         \end{tabular}
     \end{center}
