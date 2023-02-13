@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1676262346 "/Users/spencerhirsch/Documents/GitHub/analysis_of_algorithms/dynamic_programming/bottom_up.tex" "bottom_up.pdf" "bottom_up" 1676262347
-  "/Users/spencerhirsch/Documents/GitHub/analysis_of_algorithms/dynamic_programming/bottom_up.tex" 1676262346 3541 22e6a9c6f62aef451fcfe846d317932d ""
+["pdflatex"] 1676265288 "/Users/spencerhirsch/Documents/GitHub/analysis_of_algorithms/dynamic_programming/bottom_up.tex" "bottom_up.pdf" "bottom_up" 1676265288
+  "/Users/spencerhirsch/Documents/GitHub/analysis_of_algorithms/dynamic_programming/bottom_up.tex" 1676265288 4716 06559b2b7ac651ebaf0d39fa140c0a26 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -65,9 +65,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1674061236 2826446 c95caf68c56b67e62bd3e0f4499af8ae ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "bottom_up.aux" 1676262347 686 470fdebd29f279999e89f3533b8c7bc8 "pdflatex"
+  "bottom_up.aux" 1676265288 686 1021e496efe4cd3ab536fd12e6d22f30 "pdflatex"
   "bottom_up.out" 0 -1 0 "pdflatex"
-  "bottom_up.tex" 1676262346 3541 22e6a9c6f62aef451fcfe846d317932d ""
+  "bottom_up.tex" 1676265288 4716 06559b2b7ac651ebaf0d39fa140c0a26 ""
   (generated)
   "bottom_up.aux"
   "bottom_up.log"
