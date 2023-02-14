@@ -152,10 +152,26 @@ complexity is far worse.
 
 \bigskip
 
-\noindent \textbf{Example Three: ()}
+\noindent \textbf{Example Three: (Tyler)}
 
 
+\noindent \textit{Rod Cutting Problem:}
 
+The third example for dynamic programming problems is the rod cutting problem.\\
+
+\noindent \textit{The problem goes as follows:}
+
+Given a rod of length n, and an array of prices that include the prices of all 
+pieces of size smaller than n, determine the maximum obtainable value by
+cutting up the rod and selling the pieces.\\
+
+The most common solution for this problem is to generate all configurations
+of different pieces to determine the highest-priced configuration. This solution is
+exponential in terms of time complexity. We start by cutting the rod at different
+positions, and determining the prices after the cut. We can recursively call the
+same function for a piece obtained after the cut.
+
+\bigskip
 
 \pagebreak
 
@@ -239,6 +255,51 @@ the algorithm will never have to backtrack and reevaluate a distance which
 has alreaddy been assigned. No unnecessary calculations are perfomed, meaning 
 the time and space complexity is satisfactory.
 
+\noindent \textbf{The Eight Queens Problem: (Tyler)} 
+
+\noindent \textit{The problem goes as follows:} \\
+
+The eight-queens puzzle is the problem of placing eight chess queens on an 8x8
+chessboard, so that no two queens threaten one another. This requires that no two
+queens share similar columns, rows, or diagonals. There are 92 solutions for an
+8x8 board.
+
+
+\medskip
+
+\noindent \textit{The Solution:} \\
+
+The proble of finding all possible solutions is quite expensive, since there are
+4,426,165,368 possible arrangements of eight queens on an 8x8 board, but only
+92 solutions. It is possible to avoid using brute-force techniques by applying simple rules,
+such as avoiding placing queens on identical columns, which automatically lowers the
+total number of combinations to only 16,777,216. Avoiding rows lowers the number to
+8!, or 40,320.\\
+
+The brute-force algorithms can be used to count the numbers relatively easily for an
+8x8 board, since the total is only 8!, but increasing the board size to 20x20 increases
+the possible permutations to 20!.\\
+
+The eight queens problem can be solved using a backtracking algorithm, which
+systematically builds a solution by testing all possible configurations and undoing steps
+when they lead to invalid solutions. The algorithm proceeds by placing a queen in the
+first row of the first column, and then attempting to place a queen in the second row of
+the second column, and so on, until either a solution is found or no more valid moves are
+possible. If a move leads to an invalid solution, the algorithm backtracks to the previous
+column and attempts the next possible move.\\
+
+To speed up the algorithm, some optimizations can be used, such as keeping track of the
+occupied rows and diagonals, which allows for faster checks of whether a given move
+leads to an invalid solution. Additionally, the search can be pruned by avoiding symmetrical
+solutions and by exploiting the fact that the eight queens problem has only 92 distinct solutions.\\
+
+The backtracking algorithm has an exponential worst-case time complexity, but with the
+optimizations mentioned above, it can solve the eight queens problem efficiently for small
+values of N, such as N=8.
+
+
+
+\bigskip
 
 \pagebreak
 
@@ -249,7 +310,7 @@ the time and space complexity is satisfactory.
             \hline
             Remington Greko & Second example of Dynamic Programming $\&$ Shortest Path\\
             \hline
-            Tyler Gutowski &  \\
+            Tyler Gutowski & Third Example of Dynamic Programming $\&$ Eight Queens Problem\\
             \hline
             Spencer Hirsch & How Dynamic Programming Works, One Example use of Dynamic Programming $\&$ 0-1 Knapsack Problem algorithm example \\
             \hline
