@@ -51,6 +51,52 @@ There are many ways to solve a recurrence:
     \item Generating Functions
 \end{enumerate}
 
+\pagebreak
+
+\noindent \textit{Guess or Given and Prove}
+
+\smallskip
+
+I like this approach to my third grade teacher Mrs. Beavis asking
+me to prove x = 2 is a solution to the polynomial equation
+
+
+\begin{enumerate}
+    \item Show that log(n) (the log base 2 of n) solves the recurrence:
+            \[T(n) = T(n/2) + 1, T(0) = 1\]
+            Mention an algorithm that is described by this recurrence.
+            (Note: you may assume n is a power of 2 so that dividing by 2
+            never introduces a fraction)
+
+            \textbf{Solution:}\\
+            Assume n = $2^k$
+            \[T(2^k) = T({2^k}/2) + 1\]
+            \[T(2^k) = T(2^{k-1}) + 1\]
+            \[T(2^k) = (T(2^{k-2}) + 1) + 1\]
+            \[T(2^k) = T(2^{k-2}) + 2\]
+            \[T(2^k) = [T(2^{k-3}) + 1] + 2\]
+            \[T(2^k) = T(2^{k-3}) + 3\]
+            \[T(2^k) = T(2^{k-k}) + k\]
+            \[T(2^k) = T(2^{0}) + k\]
+            \[T(2^k) = T(1) + k\]
+            \[T(2^k) = 1 + k\]
+            \[T(2^k) = log(n) + 1\]
+            Therefore,\\
+            \[T(n) = log(n)\]
+
+            Binary search is a recursive alogorithm that has a time complexity
+            of (log(n)).
+        
+
+
+    \item Show that nlog(n) solves the recurrence:
+            \[T(n) = 2T(n/2) + n, T(0) = 1\]
+            Mention a algorithm that is desribed by this recurrence.
+
+            Mergesort is a recursive algorithm that has a time complexity 
+            of O(nlog(n)).
+\end{enumerate}
+
 \bigskip
 
 \pagebreak
@@ -60,11 +106,11 @@ There are many ways to solve a recurrence:
             \hline
             \textbf{Name} & \textbf{Section} \\
             \hline
-            Remington Greko & Second example of Dynamic Programming $\&$ Shortest Path\\
+            Remington Greko & \\
             \hline
-            Tyler Gutowski & Third Example of Dynamic Programming $\&$ Eight Queens Problem\\
+            Tyler Gutowski & \\
             \hline
-            Spencer Hirsch & How Dynamic Programming Works, One Example use of Dynamic Programming $\&$ 0-1 Knapsack Problem algorithm example \\
+            Spencer Hirsch & O(log(n)) Recurrence and Example Algorithms\\
             \hline
         \end{tabular}
     \end{center}
