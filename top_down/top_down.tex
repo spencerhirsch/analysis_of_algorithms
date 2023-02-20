@@ -3,6 +3,7 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{indentfirst}   % Indents first paragraph. change if u want ig
 \usepackage{setspace}
+\usepackage{qtree}
 \doublespacing
 
 \begin{document}
@@ -92,6 +93,35 @@ me to prove x = 2 is a solution to the polynomial equation
     \item Show that nlog(n) solves the recurrence:
             \[T(n) = 2T(n/2) + n, T(0) = 1\]
             Mention a algorithm that is desribed by this recurrence.
+            
+            \textbf{Solution:}\\
+            I started by using a recursion tree, because it is easy to visualize.\\
+	    \Tree[.n [.n/2 [.n/2^{2} [.n/2^{3} [.n/2^{k} ][.... ]][.n/2^{3} [.... ][.... ]]][.n/2^{2} [.n/2^{3} [.... ][.... ]][.n/2^{3} [.... ][.... ]]]][.n/2 [.n/2^{2} [.n/2^{3} [.... ][.... ]][.n/2^{3} [.... ][.... ]]][.n/2^{2} [.n/2^{3} [.... ][.... ]][.n/2^{3} [.... ][.n/2^{k} ]]]]]
+
+
+            Sum of each row is n.
+            There are k columns.
+            \[T(n) = nk\]           
+            Assume\\
+            \[n/2^{k} = 1\]
+            \[n = 2^{k}\]
+            \[k = log(n)\]
+            \[nk = nlog(n)\]
+
+            Additionally,
+            \[T(n) = 2T(n/2) + n\]
+            \[T(n/2) = 2T(n/2^{2}) + n/2\]
+            \[T(n) = 2[T(n/2) + n]\]
+            \[T(n) = 2[2T(n/2^{2}) + n/2] + n\]
+            \[T(n) = 2^{k} T(n/2^{k}) + kn\]
+            \[T(n/2^{k}) = T(1)\]
+            \[n/2^{k} = 1\]
+            \[n=2^{k}\]
+            \[k=log(n)\]
+            \[kn = nlog(n)\]
+
+            Therefore,\\
+            \[T(n) = nlog(n)\]
 
             Mergesort is a recursive algorithm that has a time complexity 
             of O(nlog(n)).
@@ -108,7 +138,7 @@ me to prove x = 2 is a solution to the polynomial equation
             \hline
             Remington Greko & \\
             \hline
-            Tyler Gutowski & \\
+            Tyler Gutowski & O(nlog(n)) Recurrence\\
             \hline
             Spencer Hirsch & O(log(n)) Recurrence and Example Algorithms\\
             \hline
