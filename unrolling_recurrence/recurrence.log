@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.18)  27 FEB 2023 15:21
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.18)  27 FEB 2023 11:58
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -389,17 +393,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
+<<<<<<< Updated upstream
 [2] [3] [4] (./recurrence.aux)
+=======
+[1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+[3] [4] [5] (./recurrence.aux)
+>>>>>>> Stashed changes
 Package rerunfilecheck Info: File `recurrence.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
  8737 strings out of 478268
  137669 string characters out of 5846347
+=======
+ 8733 strings out of 478268
+ 137614 string characters out of 5846347
+>>>>>>> Stashed changes
  439003 words of memory out of 5000000
  26842 multiletter control sequences out of 15000+600000
  473255 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
+<<<<<<< Updated upstream
  60i,8n,63p,313b,407s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 Output written on recurrence.pdf (4 pages, 125006 bytes).
@@ -407,5 +428,14 @@ PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  73 compressed objects within 1 object stream
  23 named destinations out of 1000 (max. 500000)
+=======
+ 60i,8n,63p,313b,402s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on recurrence.pdf (5 pages, 124937 bytes).
+PDF statistics:
+ 101 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 500000)
+>>>>>>> Stashed changes
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
