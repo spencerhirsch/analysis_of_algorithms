@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1677516585 "/Users/spencerhirsch/Documents/GitHub/analysis_of_algorithms/unrolling_recurrence/recurrence.tex" "recurrence.pdf" "recurrence" 1677516585
-  "/Users/spencerhirsch/Documents/GitHub/analysis_of_algorithms/unrolling_recurrence/recurrence.tex" 1677516584 3386 ed44b4d41a8f98e2407a9b1e242f1e61 ""
+["pdflatex"] 1677529273 "/Users/spencerhirsch/Documents/GitHub/analysis_of_algorithms/unrolling_recurrence/recurrence.tex" "recurrence.pdf" "recurrence" 1677529274
+  "/Users/spencerhirsch/Documents/GitHub/analysis_of_algorithms/unrolling_recurrence/recurrence.tex" 1677529273 4019 921be6db4a5b8bdbd815b1ce5475c315 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -74,9 +74,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1674061236 2826446 c95caf68c56b67e62bd3e0f4499af8ae ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "recurrence.aux" 1677516585 686 1021e496efe4cd3ab536fd12e6d22f30 "pdflatex"
+  "recurrence.aux" 1677529274 686 1021e496efe4cd3ab536fd12e6d22f30 "pdflatex"
   "recurrence.out" 0 -1 0 "pdflatex"
-  "recurrence.tex" 1677516584 3386 ed44b4d41a8f98e2407a9b1e242f1e61 ""
+  "recurrence.tex" 1677529273 4019 921be6db4a5b8bdbd815b1ce5475c315 ""
   (generated)
   "recurrence.aux"
   "recurrence.log"
