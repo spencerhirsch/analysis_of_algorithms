@@ -72,7 +72,17 @@ Therefore,
 \begin{enumerate}
     \item Solve the recurrence
             \[ T(n) = T(n-1) + n, T(0) = 1 \]
+            \[ T(n) = T(n-1)^2 + n\]
+            \[ T(n) = n^2 -2n + 1 + n\]
+            \[ T(n) = n^2 - (2-1)n + 1\]
+            \[ T(n) = n^2 - (2-1)n + 1\]
+            \[T(n) = n^2\]
+
+            Therefore, \[T(n) = n^2\]
+
             Mention the algorithm that is described by this recurrence.
+
+            Bubble sort is an algorithm that has a recurrence of O($n^2$).
     \item Solve the recurrence
             \[ T(n) = 2T(n/2) + n, T(0) = 1 \]
             Mention the algorithm that is described by this recurrence.
@@ -91,9 +101,9 @@ Therefore,
             \hline
             Remington Greko & \\
             \hline
-            Tyler Gutowski & O(nlog(n)) \\
+            Tyler Gutowski & \\
             \hline
-            Spencer Hirsch & O(log(n)) \\
+            Spencer Hirsch & Unrolling a recurrence \\
             \hline
         \end{tabular}
     \end{center}
