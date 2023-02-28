@@ -131,8 +131,24 @@ Therefore,
             Mergesort is a recursive algoirthm that has a time complexity of O(nlog(n)).
     \item Solve the recurrence
             \[ T(n) = 2T(n-1) + 1, T(1) = 1 \]
+
+            \[ T(n) = 2(2T(n-2) + 1) + 1 \]
+            \[ T(n) = 2^2T(n-2) + 2 + 1 \]
+            \[ T(n) = 2^3T(n-3) + 2^2 + 2 + 1 \]
+            \[ T(n) = 2^kT(n-k) + 2^k-1 + 2^k-2 + ... + 2^2 + 2 + 1 \]
+            \[ T(n) = 2^nT(0) + 1 + 2 + 2^2 + ... + 2^k-1 \]
+            \[ T(n) = 2^n * 1 + 2^k - 1 \]
+            \[ T(n) = 2^n + 2^n - 1 \]
+            \[ T(n) = 2^n+1 - 1 \]
+            
+            Therefore, \\
+            \[ T(n) = 2^n \]
             
             What famous problem is described by this recurrence?
+
+            he Tower of Hanoi problem is a famous computer science problem which is 
+            solved in an O($2^n$) time complexity.
+
 \end{enumerate}
 
 
@@ -143,7 +159,7 @@ Therefore,
             \hline
             \textbf{Name} & \textbf{Section} \\
             \hline
-            Remington Greko & \\
+            Remington Greko & Unrolling recurrence part 2c\\
             \hline
             Tyler Gutowski & Closed form expression sums\\
             \hline
