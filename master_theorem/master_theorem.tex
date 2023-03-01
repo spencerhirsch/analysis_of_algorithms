@@ -23,7 +23,7 @@ matrix multiplication recurrence.}
 
 \[T(n) = 7T(n/2) + O(n^2)\]
 
-\noindent There are many details beneath this recurrecne. I strongly encourage you to read
+\noindent There are many details beneath this recurrence. I strongly encourage you to read
 what is in the Corman textbook and other sources.
 
 Submit the team's report on Canvas. Include a task matric indicating who did what.
@@ -40,7 +40,7 @@ calls of the algorithm.\footnote{Id.} The algorithm for the recurrence relation 
 
 \[T(n) + aT(n/b) + f(n)\]
 
-\noindent Where, n is the input soze, a is the number of subproblems, and b is the factor by which the size is reduced.\footnote{Id.} It can be determined
+\noindent Where, n is the input size, a is the number of subproblems, and b is the factor by which the size is reduced.\footnote{Id.} It can be determined
 based on the Theorem the best case time complexity of the Master Theorem is constant time or \textit{O(1)}.
 
 \bigskip
@@ -49,9 +49,26 @@ based on the Theorem the best case time complexity of the Master Theorem is cons
 
 \noindent \textbf{\href{https://brilliant.org/wiki/master-theorem/}{Brilliant Article on the Master Theorem}}
 
+\textit{Statement of the Master Theorem}\\
 
+Given the algorithm listed above, the runtime of each of the initial nodes is the runtime of T(n/b). Therefore the depth of the tree 
+is $log_bn$ with the depth \textit{i} has \textit{$a^i$} nodes in that final level.\footnote{Brilliant} Therefore,
 
+\[a^{log_bn} = n^{log_bn}\]
 
+which demonstrates the the runtime of the program is \textit{$O(n^{log_ba})$}.\footnote{Id.} Through this reasoning
+you can determine that the form of \textit{T} is based between \textit{f} and \textit{$n^{log_ba}$}.\footnote{Id.}
+
+\pagebreak
+
+\textit{The Master Theorem Itself} \\
+Given the previous form listed in the Wikipedia section, with constants \textit{$a\geq1$} and \textit{$b>1$} with \textit{f}.\footnote{Id.}\\
+The follwing are true: \\
+\begin{quote}
+``\noindent \textit{$f(n) = O(n^{log_ba-\epsilon})$} for some $\epsilon > 0$, then \textit{$T(n) = O(n^{log_ba})$}. \\
+\textit{$f(n) = O(n^{log_ba})$}, then \textit{$T(n) = O(n^{log_ba}logn)$}.\\
+\textit{$f(n) = O(n^{log_ba+\epsilon})$} for some $\epsilon > 0$, then \textit{T(n) = O(f(n))}.'' \footnote{Id.}
+\end{quote}
 
 \pagebreak
 \section{Works Cited}
