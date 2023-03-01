@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1677645378 "/Users/spencerhirsch/Documents/GitHub/analysis_of_algorithms/master_theorem/master_theorem.tex" "master_theorem.pdf" "master_theorem" 1677645378
-  "/Users/spencerhirsch/Documents/GitHub/analysis_of_algorithms/master_theorem/master_theorem.tex" 1677645378 1394 c1232d1bd341bc2372c1394a623a3d38 ""
+["pdflatex"] 1677645588 "/Users/spencerhirsch/Documents/GitHub/analysis_of_algorithms/master_theorem/master_theorem.tex" "master_theorem.pdf" "master_theorem" 1677645588
+  "/Users/spencerhirsch/Documents/GitHub/analysis_of_algorithms/master_theorem/master_theorem.tex" 1677645588 1561 87959cb9782b7a9061064aa30ba79f93 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -70,9 +70,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1674061236 2826446 c95caf68c56b67e62bd3e0f4499af8ae ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "master_theorem.aux" 1677645378 686 4ce905362b6645b598ea182482e9aeed "pdflatex"
+  "master_theorem.aux" 1677645588 686 4ce905362b6645b598ea182482e9aeed "pdflatex"
   "master_theorem.out" 0 -1 0 "pdflatex"
-  "master_theorem.tex" 1677645378 1394 c1232d1bd341bc2372c1394a623a3d38 ""
+  "master_theorem.tex" 1677645588 1561 87959cb9782b7a9061064aa30ba79f93 ""
   (generated)
   "master_theorem.aux"
   "master_theorem.log"
