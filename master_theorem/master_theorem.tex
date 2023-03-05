@@ -49,7 +49,7 @@ based on the Theorem the best case time complexity of the Master Theorem is cons
 
 \noindent \textbf{\href{https://brilliant.org/wiki/master-theorem/}{Brilliant Article on the Master Theorem}}
 
-\textit{Statement of the Master Theorem}\\
+\textit{Statement of the Master Theorem} \\
 
 Given the algorithm listed above, the runtime of each of the initial nodes is the runtime of T(n/b). Therefore the depth of the tree 
 is $log_bn$ with the depth \textit{i} has \textit{$a^i$} nodes in that final level.\footnote{Brilliant} Therefore,
@@ -70,6 +70,65 @@ The follwing are true: \\
 \textit{$f(n) = O(n^{log_ba+\epsilon})$} for some $\epsilon > 0$, then \textit{T(n) = O(f(n))}.'' \footnote{Id.}
 \end{quote}
 
+\noindent \textbf{Cormen Discussion of the Master Theorem}
+
+\smallskip
+
+Cormen describes the master theorem as a "cookbook" method for solving recurrences which are in the form \textit{$T(n) = aT(n/b) + f(n)$}.
+This equation represents the running time of an algorithm which is divided into \textit{$n$} subproblems, sized \textit{$n/b$}, where \textit{$n$} 
+and \textit{$b$} are positive constants. Each subproblem \textit{$a$} is solved recursived in time \textit{$T(n/b)$} and the cost of dividing the
+problem is described by \textit{$f(n)$}. 
+
+\bigskip
+
+\noindent\textit{The Master Theorem}
+
+\smallskip
+
+\noindent{The master theorem itself is as follows:}
+
+\smallskip
+
+Let \textit{$a\geq 1$} and \textit{$b > 1$} be constants, let \textit{$f(n)$} be a function, and let \textit{$T(n)$} be defined on the nonnegative
+integers by the recurrence \textit{$T(n) = aT(n/b) + f(n)$}. Then \textit{$T(n)$} can be bounded asymptotically as follows.
+
+\smallskip
+
+\begin{enumerate}
+    \item If \textit{$f(n) = O(n^{log_{b}a-\in})$} for some constant \textit{$\in > 0$}, then \textit{$T(n) = \Theta(n^{log_{b}a})$}.
+    
+    \item If \textit{$f(n) = \Theta(n^{log_{b}a})$}, then \textit{$T(n) = \Theta(n^{log_{b}a}lg(n))$}.
+    
+    \item If \textit{$f(n) = \Omega(n^{log_{b}a+\in})$} for some constant \textit{$\in > 0$}, and if \textit{$a f(n/b) /le c f(n)$} for some constant
+    \textit{$c < 1$} and all sufficiently large \textit{$n$}, then \textit{$T(n) = \Theta(f(n))$}.
+
+\end{enumerate}
+
+\smallskip
+
+\noindent Essentially this expresses the solution to a recurrence through comparing the function \textit{$f(n)$} with the function \textit{$n^{log_{b}a}$}.
+Whichever of the two functions is larger is the solution. The first case requires that the expression \textit{$f(n)$} must be \textit{polynomially} smaller
+than \textit{$n^{log_{b}a}$}. This is the same in case three where \textit{$f(n)$} must be polynomially \textit{larger} than \textit{$n^{log_{b}a}$}. 
+The three cases do not cover all possibilites for \textit{$f(n)$}, there is a gap between cases 1 and 2 when \textit{$f(n)$} is smaller than 
+\textit{$n^{log_{b}a}$} but not polynomially. This occurs again between 2 and 3 where \textit{$f(n)$} is not polynomially larger. In the cases where
+\textit($f(n)$) falls between these cases, the master theorem cannot be used to solve the recurrence.
+
+\bigskip
+
+\noindent\textit{Master Theorem Example}
+
+To use the master theorem we first determine which case applies to the given equation. For example consider:
+
+\smallskip
+
+\textit{$T(n) = 9T(n/3) + n$}
+
+\smallskip
+
+\noindent In this recurrence we have \textit{$a = 9, b = 3, f(n) = n$}, and thus \textit{$n^{log_{b}a} = n^{log_{3}9} = \Theta(n^2)$}. Since 
+\textit{$f(n) = O(n^{log_{3}9 - \in})$}, where \textit{$\in = 1$}, we can apply case 1 of the master theorem. This produces the solution
+\textit{$T(n) = \Theta(n^2)$}
+
 \pagebreak
 \section{Works Cited}
 
@@ -84,7 +143,7 @@ The follwing are true: \\
             \hline
             \textbf{Name} & \textbf{Section} \\
             \hline
-            Remington Greko & \\
+            Remington Greko & Cormen Summary\\
             \hline
             Tyler Gutowski & \\
             \hline

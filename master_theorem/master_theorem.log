@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.18)  1 MAR 2023 11:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.1)  5 MAR 2023 17:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/spencerhirsch/Documents/GitHub/analysis_of_algorithms/master_theorem/master_theorem.tex
-(/Users/spencerhirsch/Documents/GitHub/analysis_of_algorithms/master_theorem/master_theorem.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+**c:/Users/remig/OneDrive/Documents/GitHub/analysis_of_algorithms/master_theorem/master_theorem.tex
+(c:/Users/remig/OneDrive/Documents/GitHub/analysis_of_algorithms/master_theorem/master_theorem.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-01-24> (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -19,81 +19,89 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count190
 \c@figure=\count191
 \c@table=\count192
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
- (/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
-) (/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
-) (/usr/local/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-) (/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count193
 )
-\@linkdim=\dimen139
-\Hy@linkcounter=\count193
-\Hy@pagecounter=\count194
- (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+\@linkdim=\dimen141
+\Hy@linkcounter=\count194
+\Hy@pagecounter=\count195
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count195
- (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count196
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4137.
-Package hyperref Info: Link nesting OFF on input line 4142.
-Package hyperref Info: Hyper index ON on input line 4145.
-Package hyperref Info: Plain pages OFF on input line 4152.
-Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4390.
-\c@Hy@tempcnt=\count196
- (/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count197
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4749.
-\XeTeXLinkMargin=\dimen140
- (/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen142
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count197
-\Field@Width=\dimen141
-\Fld@charsize=\dimen142
+\Fld@menulength=\count198
+\Field@Width=\dimen143
+\Fld@charsize=\dimen144
 Package hyperref Info: Hyper figures OFF on input line 6027.
 Package hyperref Info: Link nesting OFF on input line 6032.
 Package hyperref Info: Hyper index ON on input line 6035.
@@ -101,191 +109,189 @@ Package hyperref Info: backreferencing OFF on input line 6042.
 Package hyperref Info: Link coloring OFF on input line 6047.
 Package hyperref Info: Link coloring with OCG OFF on input line 6052.
 Package hyperref Info: PDF/A mode OFF on input line 6057.
-LaTeX Info: Redefining \ref on input line 6097.
-LaTeX Info: Redefining \pageref on input line 6101.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count198
-\c@Item=\count199
-\c@Hfootnote=\count266
+\Hy@abspage=\count199
+\c@Item=\count266
+\c@Hfootnote=\count267
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
- (/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count267
-\c@bookmark@seq@number=\count268
- (/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
- (/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+\Fld@listcount=\count268
+\c@bookmark@seq@number=\count269
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip49
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+\Hy@SectionHShift=\skip50
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count269
-\Gm@cntv=\count270
-\c@Gm@tempcnt=\count271
-\Gm@bindingoffset=\dimen143
-\Gm@wd@mp=\dimen144
-\Gm@odd@mp=\dimen145
-\Gm@even@mp=\dimen146
-\Gm@layoutwidth=\dimen147
-\Gm@layoutheight=\dimen148
-\Gm@layouthoffset=\dimen149
-\Gm@layoutvoffset=\dimen150
+\Gm@cnth=\count270
+\Gm@cntv=\count271
+\c@Gm@tempcnt=\count272
+\Gm@bindingoffset=\dimen145
+\Gm@wd@mp=\dimen146
+\Gm@odd@mp=\dimen147
+\Gm@even@mp=\dimen148
+\Gm@layoutwidth=\dimen149
+\Gm@layoutheight=\dimen150
+\Gm@layouthoffset=\dimen151
+\Gm@layoutvoffset=\dimen152
 \Gm@dimlist=\toks17
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/indentfirst.sty
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/qtree/qtree.sty
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/qtree\qtree.sty
 Package: 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
 Package: qtree 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
-(/usr/local/texlive/2022/texmf-dist/tex/latex/pict2e/pict2e.sty
+(C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\pict2e.sty
 Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
- (/usr/local/texlive/2022/texmf-dist/tex/latex/pict2e/pict2e.cfg
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\pict2e.cfg
 File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
 )
 Package pict2e Info: Driver file: pdftex.def on input line 112.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 )
 Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
+ (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\p2e-pdftex.def
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
 \pIIe@GRAPH=\toks18
-\@arclen=\dimen151
-\@arcrad=\dimen152
-\pIIe@tempdima=\dimen153
-\pIIe@tempdimb=\dimen154
-\pIIe@tempdimc=\dimen155
-\pIIe@tempdimd=\dimen156
-\pIIe@tempdime=\dimen157
-\pIIe@tempdimf=\dimen158
+\@arclen=\dimen153
+\@arcrad=\dimen154
+\pIIe@tempdima=\dimen155
+\pIIe@tempdimb=\dimen156
+\pIIe@tempdimc=\dimen157
+\pIIe@tempdimd=\dimen158
+\pIIe@tempdime=\dimen159
+\pIIe@tempdimf=\dimen160
 )
-\c@treecount=\count272
-\c@branchcount=\count273
-\parentbox=\box50
-\treebox=\box51
-\treeboxone=\box52
-\treeboxtwo=\box53
-\treeboxthree=\box54
-\treeboxfour=\box55
-\treeboxfive=\box56
-\treeboxsix=\box57
-\treeboxseven=\box58
-\treeboxeight=\box59
-\treeboxnine=\box60
-\treeboxten=\box61
-\treeboxeleven=\box62
-\treeboxtwelve=\box63
-\treeboxthirteen=\box64
-\treeboxfourteen=\box65
-\treeboxfifteen=\box66
-\treeboxsixteen=\box67
-\treeboxseventeen=\box68
-\treeboxeighteen=\box69
-\treeboxnineteen=\box70
-\treeboxtwenty=\box71
-\treeoffsetone=\skip50
-\treeoffsettwo=\skip51
-\treeoffsetthree=\skip52
-\treeoffsetfour=\skip53
-\treeoffsetfive=\skip54
-\treeoffsetsix=\skip55
-\treeoffsetseven=\skip56
-\treeoffseteight=\skip57
-\treeoffsetnine=\skip58
-\treeoffsetten=\skip59
-\treeoffseteleven=\skip60
-\treeoffsettwelve=\skip61
-\treeoffsetthirteen=\skip62
-\treeoffsetfourteen=\skip63
-\treeoffsetfifteen=\skip64
-\treeoffsetsixteen=\skip65
-\treeoffsetseventeen=\skip66
-\treeoffseteighteen=\skip67
-\treeoffsetnineteen=\skip68
-\treeoffsettwenty=\skip69
-\treeshiftone=\skip70
-\treeshifttwo=\skip71
-\treeshiftthree=\skip72
-\treeshiftfour=\skip73
-\treeshiftfive=\skip74
-\treeshiftsix=\skip75
-\treeshiftseven=\skip76
-\treeshifteight=\skip77
-\treeshiftnine=\skip78
-\treeshiftten=\skip79
-\treeshifteleven=\skip80
-\treeshifttwelve=\skip81
-\treeshiftthirteen=\skip82
-\treeshiftfourteen=\skip83
-\treeshiftfifteen=\skip84
-\treeshiftsixteen=\skip85
-\treeshiftseventeen=\skip86
-\treeshifteighteen=\skip87
-\treeshiftnineteen=\skip88
-\treeshifttwenty=\skip89
-\treewidthone=\skip90
-\treewidthtwo=\skip91
-\treewidththree=\skip92
-\treewidthfour=\skip93
-\treewidthfive=\skip94
-\treewidthsix=\skip95
-\treewidthseven=\skip96
-\treewidtheight=\skip97
-\treewidthnine=\skip98
-\treewidthten=\skip99
-\treewidtheleven=\skip100
-\treewidthtwelve=\skip101
-\treewidththirteen=\skip102
-\treewidthfourteen=\skip103
-\treewidthfifteen=\skip104
-\treewidthsixteen=\skip105
-\treewidthseventeen=\skip106
-\treewidtheighteen=\skip107
-\treewidthnineteen=\skip108
-\treewidthtwenty=\skip109
-\daughteroffsetone=\skip110
-\daughteroffsettwo=\skip111
-\daughteroffsetthree=\skip112
-\daughteroffsetfour=\skip113
-\branchwidthone=\skip114
-\branchwidthtwo=\skip115
-\branchwidththree=\skip116
-\branchwidthfour=\skip117
-\parentoffset=\skip118
-\treeoffset=\skip119
-\daughteroffset=\skip120
-\branchwidth=\skip121
-\parentwidth=\skip122
-\treewidth=\skip123
+\c@treecount=\count273
+\c@branchcount=\count274
+\parentbox=\box51
+\treebox=\box52
+\treeboxone=\box53
+\treeboxtwo=\box54
+\treeboxthree=\box55
+\treeboxfour=\box56
+\treeboxfive=\box57
+\treeboxsix=\box58
+\treeboxseven=\box59
+\treeboxeight=\box60
+\treeboxnine=\box61
+\treeboxten=\box62
+\treeboxeleven=\box63
+\treeboxtwelve=\box64
+\treeboxthirteen=\box65
+\treeboxfourteen=\box66
+\treeboxfifteen=\box67
+\treeboxsixteen=\box68
+\treeboxseventeen=\box69
+\treeboxeighteen=\box70
+\treeboxnineteen=\box71
+\treeboxtwenty=\box72
+\treeoffsetone=\skip51
+\treeoffsettwo=\skip52
+\treeoffsetthree=\skip53
+\treeoffsetfour=\skip54
+\treeoffsetfive=\skip55
+\treeoffsetsix=\skip56
+\treeoffsetseven=\skip57
+\treeoffseteight=\skip58
+\treeoffsetnine=\skip59
+\treeoffsetten=\skip60
+\treeoffseteleven=\skip61
+\treeoffsettwelve=\skip62
+\treeoffsetthirteen=\skip63
+\treeoffsetfourteen=\skip64
+\treeoffsetfifteen=\skip65
+\treeoffsetsixteen=\skip66
+\treeoffsetseventeen=\skip67
+\treeoffseteighteen=\skip68
+\treeoffsetnineteen=\skip69
+\treeoffsettwenty=\skip70
+\treeshiftone=\skip71
+\treeshifttwo=\skip72
+\treeshiftthree=\skip73
+\treeshiftfour=\skip74
+\treeshiftfive=\skip75
+\treeshiftsix=\skip76
+\treeshiftseven=\skip77
+\treeshifteight=\skip78
+\treeshiftnine=\skip79
+\treeshiftten=\skip80
+\treeshifteleven=\skip81
+\treeshifttwelve=\skip82
+\treeshiftthirteen=\skip83
+\treeshiftfourteen=\skip84
+\treeshiftfifteen=\skip85
+\treeshiftsixteen=\skip86
+\treeshiftseventeen=\skip87
+\treeshifteighteen=\skip88
+\treeshiftnineteen=\skip89
+\treeshifttwenty=\skip90
+\treewidthone=\skip91
+\treewidthtwo=\skip92
+\treewidththree=\skip93
+\treewidthfour=\skip94
+\treewidthfive=\skip95
+\treewidthsix=\skip96
+\treewidthseven=\skip97
+\treewidtheight=\skip98
+\treewidthnine=\skip99
+\treewidthten=\skip100
+\treewidtheleven=\skip101
+\treewidthtwelve=\skip102
+\treewidththirteen=\skip103
+\treewidthfourteen=\skip104
+\treewidthfifteen=\skip105
+\treewidthsixteen=\skip106
+\treewidthseventeen=\skip107
+\treewidtheighteen=\skip108
+\treewidthnineteen=\skip109
+\treewidthtwenty=\skip110
+\daughteroffsetone=\skip111
+\daughteroffsettwo=\skip112
+\daughteroffsetthree=\skip113
+\daughteroffsetfour=\skip114
+\branchwidthone=\skip115
+\branchwidthtwo=\skip116
+\branchwidththree=\skip117
+\branchwidthfour=\skip118
+\parentoffset=\skip119
+\treeoffset=\skip120
+\daughteroffset=\skip121
+\branchwidth=\skip122
+\parentwidth=\skip123
+\treewidth=\skip124
 \qta=\toks19
 \qtb=\toks20
-\nbranches=\count274
-\qroofx=\count275
-\qroofy=\count276
-\@qrscratchbox=\box72
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count277
-\l__pdf_internal_box=\box73
-) (./master_theorem.aux)
+\nbranches=\count275
+\qroofx=\count276
+\qroofy=\count277
+\@qrscratchbox=\box73
+) (C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count278
+\l__pdf_internal_box=\box74
+) (master_theorem.aux)
 \openout1 = `master_theorem.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -307,19 +313,7 @@ LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 Package hyperref Info: Link coloring OFF on input line 9.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
- (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count278
-)
-LaTeX Info: Redefining \ref on input line 9.
-LaTeX Info: Redefining \pageref on input line 9.
-LaTeX Info: Redefining \nameref on input line 9.
- (./master_theorem.out) (./master_theorem.out)
+ (master_theorem.out) (master_theorem.out)
 \@outlinefile=\write3
 \openout3 = `master_theorem.out'.
 
@@ -358,16 +352,16 @@ LaTeX Info: Redefining \nameref on input line 9.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(C:\Users\remig\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count279
-\scratchdimen=\dimen159
-\scratchbox=\box74
+\scratchdimen=\dimen161
+\scratchbox=\box75
 \nofMPsegments=\count280
 \nofMParguments=\count281
 \everyMPshowfont=\toks21
 \MPscratchCnt=\count282
-\MPscratchDim=\dimen160
+\MPscratchDim=\dimen162
 \MPnumerator=\count283
 \makeMPintoPDFobject=\count284
 \everyMPtoPDFconversion=\toks22
@@ -384,7 +378,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 24.
  [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{C:/Users/remig/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
@@ -394,23 +388,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--67
 
  []
 
-[3]
-Overfull \hbox (81.6595pt too wide) in paragraph at lines 78--79
+[3] [4]
+Overfull \hbox (81.6595pt too wide) in paragraph at lines 137--138
 []\OT1/cmr/m/n/10 ``Master The-o-rem.'' Bril-liant Math &amp; Sci-ence Wiki. Ac-cessed Febru-ary 28, 2023. $\OML/cmm/m/it/10 https \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 ==brilliant:org=wiki=master \OMS/cmsy/m/n/10 ^^@
  []
 
-[4] [5] (./master_theorem.aux)
+[5] [6] (master_theorem.aux)
 Package rerunfilecheck Info: File `master_theorem.out' has not changed.
 (rerunfilecheck)             Checksum: 137D5104A7BA2AD84A02F815899B87C0;101.
  ) 
 Here is how much of TeX's memory you used:
- 8736 strings out of 478268
- 137722 string characters out of 5846347
- 436024 words of memory out of 5000000
- 26848 multiletter control sequences out of 15000+600000
- 473860 words of font info for 43 fonts, out of 8000000 for 9000
+ 8784 strings out of 476375
+ 140935 string characters out of 5788976
+ 1859299 words of memory out of 5000000
+ 29068 multiletter control sequences out of 15000+600000
+ 516888 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,63p,311b,319s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,76p,352b,429s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist, replaced by a fixed one
 
@@ -438,11 +432,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on master_theorem.pdf (5 pages, 160303 bytes).
+<C:/Users/remig/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/remig/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/remig/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/remig/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/remig/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/remig/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/remig/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/remig/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/remig/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/remig/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/remig/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/remig/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/remig/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/remig/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on master_theorem.pdf (6 pages, 188570 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
+ 133 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
  9 words of extra memory for PDF output out of 10000 (max. 10000000)
 
